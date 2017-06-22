@@ -1,0 +1,155 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: #f9f9f9;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.header_welcome_text {
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin: 30px 0 30px 0px;
+	font-size: 23px;
+	font-family: monospace;
+}
+
+.container-container-border {
+	border-bottom: 1px solid #e6e6e6;
+	padding-top: 70px;
+}
+
+.container-container {
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.buttons_parent {
+	float: left;
+	width: 100%
+}
+
+.submit_btn {
+	width: 13%;
+	float: left;
+}
+
+.submit_btn>input {
+	padding: 5px;
+	width: 75px;
+	margin-top: 2px;
+	height: 32px;
+	border-radius: 5px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.register_labels {
+	font-family: monospace;
+	font-size: 16px;
+	width: 202px;
+	float: left;
+	margin-bottom: 13px;
+	margin-top: 9px;
+}
+
+.register_fields {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 7px;
+	color: #666;
+	font-size: 13px;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	top: 0;
+	height: auto;
+	opacity: .8;
+	text-align: left;
+}
+
+#logo_home_head {
+	padding: 16px 0;
+	width: 84%;
+	margin: 0 auto;
+}
+
+.logo_head {
+	width: 50%;
+	float: left;
+}
+
+.logo_head img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.head_home {
+	padding-top: 25px;
+	width: 9%;
+	float: right;
+}
+
+.head_home img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+footer {
+	border-top: 1px solid #ddd;
+	position: fixed;
+	height: 50px;
+	background-color: #eee;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+	font-family: monospace;
+	font-size: 19px;
+}
+
+footer .text_foot {
+	/* 	border-bottom: 1px solid #e6e6e6; */
+	padding: 16px 0;
+	width: 84%;
+	margin: 0 auto;
+}
+
+.foot_text_left {
+	float: left;
+}
+
+.foot_text_right {
+	float: right;
+}
+
+.success_msg {
+	color: green;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+	font-family: monospace;
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+.error_msg {
+	color: #E80B0B;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+	font-family: monospace;
+	font-size: 16px;
+	margin-top: 18px;
+}
